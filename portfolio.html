@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ryle Nazareno</title>
+
+<link rel="stylesheet" href="portfolio.css">
+<link rel="icon" type="image/png" href="letter-r.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+<nav>
+
+<h2 class="logo">Student<span>Portfolio</span></h2>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+</header>
+
+<section class="hero" id="home">
+
+<div class="content">
+
+<h3>Hello, I'm</h3>
+
+<h1>Ryle Nazareno</h1>
+
+<h2><span id="typing"></span></h2>
+
+<p>
+Passionate about Electronics Engineering,
+Embedded Systems, IoT, Arduino, Robotics,
+and Web Development.
+</p>
+
+<a href="#" class="btn">Download CV</a>
+
+</div>
+
+<div class="image">
+
+<img src="totong.png">
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+
+I am an Electronics Engineering student who enjoys designing
+electronic circuits, programming microcontrollers,
+building IoT projects, and developing websites.
+
+</p>
+
+</section>
+
+<section id="skills">
+
+    <h2>Skills</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="embed.jpg " alt="Embedded Systems">
+            <h3>Embedded Systems</h3>
+        </div>
+
+        <div class="card">
+            <img src="circuit.webp" alt="Circuit Design">
+            <h3>Circuit Design</h3>
+        </div>
+
+        <div class="card">
+            <img src="ard.jpg" alt="Arduino">
+            <h3>Arduino</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="project-box">
+
+    <div class="project">
+        <img src="adaptive.jpg" alt="IoT Smart Home">
+
+        <h3>IoT Smart Home</h3>
+
+        <p>Adaptive Room Temperature Controller</p>
+    </div>
+
+    <div class="project">
+        <img src="power.jpg" alt="Power Supply">
+
+        <h3>Power Supply</h3>
+
+        <p>Converts raw electrical power to DC voltages.</p>
+    </div>
+
+    <div class="project">
+        <img src="amp.jpg" alt="Amplifier">
+
+        <h3>Amplifier</h3>
+
+        <p>Increases magnitude of a signal.</p>
+    </div>
+
+    <div class="project">
+        <img src="equalizer.jpg" alt="Equalizer">
+
+        <h3>Equalizer</h3>
+
+        <p>Adjusts different frequency bands to improve audio quality.</p>
+    </div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Me</h2>
+
+<form id="contact-form">
+
+    <input
+        type="text"
+        id="name"
+        name="from_name"
+        placeholder="Full Name"
+        required>
+
+    <input
+        type="email"
+        id="email"
+        name="from_email"
+        placeholder="Email"
+        required>
+
+    <textarea
+        id="message"
+        name="message"
+        placeholder="Message"
+        required></textarea>
+
+    <button type="submit">
+        Send
+    </button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 Ryle Nazareno | Electronics Engineering Portfolio
+
+</p>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+emailjs.init("StGwrvdcuhV3LBYsS");
+</script>
+
+<script src="portfolio.js"></script>
+
+</body>
+</html> 
