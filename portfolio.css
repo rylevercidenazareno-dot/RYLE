@@ -47,7 +47,7 @@ color:#00e5ff;
 
 .logo span{
 
-color:white;
+color: #00e5ff;
 
 }
 
@@ -104,13 +104,14 @@ color:#00e5ff;
 .content h2{
 
 margin:10px 0;
-color:#00ffff;
+color: #00e5ff;
 
 }
 
 .content p{
 
 margin:25px 0;
+font-size: 20px;
 
 }
 
@@ -145,13 +146,14 @@ box-shadow:0 0 20px cyan;
 section{
 
 padding:100px 8%;
+font-size: 20px;
 
 }
 
 section h2{
 
 text-align:center;
-font-size:40px;
+font-size:50px;
 margin-bottom:50px;
 color:#00e5ff;
 

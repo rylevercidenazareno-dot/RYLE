@@ -133,3 +133,47 @@ footer{
     background:#444;
     color:white;
 }
+
+.hero-header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:30px 8%;
+    background:#11283b;
+}
+
+.hero-title{
+    flex:1;
+    text-align:center;
+}
+
+.hero-title h1{
+    color:#00e5ff;
+    font-size:60px;
+    margin-bottom:10px;
+}
+
+.hero-title p{
+    color:#fff;
+    font-size:22px;
+}
+
+.back-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:14px 28px;
+    background:linear-gradient(135deg,#00c6ff,#0072ff);
+    color:#fff;
+    text-decoration:none;
+    font-weight:600;
+    border-radius:50px;
+    box-shadow:0 8px 20px rgba(0,198,255,.4);
+    transition:.3s ease;
+}
+
+.back-btn:hover{
+    background:linear-gradient(135deg,#00ffff,#00bfff);
+    transform:translateY(-3px);
+    box-shadow:0 0 20px cyan;
+}
