@@ -1,0 +1,151 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#06141f;
+color:white;
+}
+
+header{
+text-align:center;
+padding:60px 20px;
+background:#0b2336;
+}
+
+header h1{
+font-size:50px;
+color:#00e5ff;
+margin-bottom:10px;
+}
+
+header p{
+font-size:18px;
+color:#ddd;
+}
+
+.arduino{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:60px;
+padding:80px 10%;
+flex-wrap:wrap;
+}
+
+.image img{
+width:450px;
+border-radius:15px;
+border:4px solid cyan;
+box-shadow:0 0 25px cyan;
+transition:.4s;
+}
+
+.image img:hover{
+transform:scale(1.05);
+}
+
+.content{
+max-width:600px;
+}
+
+.content h2{
+color:#00e5ff;
+font-size:35px;
+margin-bottom:20px;
+}
+
+.content p{
+line-height:1.8;
+text-align:justify;
+margin-bottom:20px;
+}
+
+#more-text{
+display:none;
+}
+
+button{
+padding:15px 35px;
+background:#00bfff;
+color:white;
+border:none;
+border-radius:30px;
+cursor:pointer;
+font-size:16px;
+transition:.3s;
+}
+
+button:hover{
+background:#00ffff;
+box-shadow:0 0 20px cyan;
+}
+
+.applications{
+padding:80px 10%;
+}
+
+.applications h2{
+text-align:center;
+font-size:40px;
+color:#00e5ff;
+margin-bottom:50px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.card{
+background:#163248;
+padding:30px;
+border-radius:15px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 20px cyan;
+}
+
+.card h3{
+color:#00ffff;
+margin-bottom:15px;
+}
+
+.card p{
+color:#ddd;
+}
+
+footer{
+background:#0b2336;
+padding:20px;
+text-align:center;
+margin-top:60px;
+}
+
+@media(max-width:768px){
+
+header h1{
+font-size:38px;
+}
+
+.arduino{
+flex-direction:column;
+}
+
+.image img{
+width:100%;
+max-width:350px;
+}
+
+.content h2{
+font-size:28px;
+}
+
+}

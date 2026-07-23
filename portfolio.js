@@ -86,3 +86,32 @@ form.addEventListener("submit", function (e) {
     });
 
 });
+
+const body = document.body;
+const themeToggle = document.getElementById("theme-toggle");
+
+// Load saved theme
+const savedTheme = localStorage.getItem("theme") || "dark-mode";
+body.classList.add(savedTheme);
+
+updateButton();
+
+themeToggle.addEventListener("click", () => {
+    if (body.classList.contains("dark-mode")) {
+        body.classList.replace("dark-mode", "light-mode");
+        localStorage.setItem("theme", "light-mode");
+    } else {
+        body.classList.replace("light-mode", "dark-mode");
+        localStorage.setItem("theme", "dark-mode");
+    }
+
+    updateButton();
+});
+
+function updateButton() {
+    if (body.classList.contains("dark-mode")) {
+        themeToggle.textContent = "🌙 Dark Mode";
+    } else {
+        themeToggle.textContent = "☀️ Light Mode";
+    }
+}
